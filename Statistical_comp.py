@@ -47,8 +47,6 @@ for trans in transcripts:
 kidn_livr = kidn_livr.sort_values(by='Distance')
 print(kidn_livr)
 
-##Do svm ??
-
 
 kidn_livr.to_csv(r'/Users/mashrurhaidernew/Desktop/MacPro/NKI/Speed_prof/Liver & Skeletal comparison.csv', encoding='utf-8-sig')
 df_new = pd.read_csv('/Users/mashrurhaidernew/Desktop/MacPro/NKI/Speed_prof/Liver & Skeletal comparison.csv', sep=',', skip_blank_lines=True)
